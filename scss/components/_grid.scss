@@ -1,0 +1,36 @@
+// GRID PARTIAL 
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        'nav'
+        'hero'
+        'main'
+        'footer';
+    gap: 1em;
+    justify-items: center;
+}
+
+.hero {
+    grid-area: hero;
+}
+
+.nav-bar {
+    grid-area: nav;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.portfolio-container {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+        'one'
+        'two'
+        'three'
+        'four';
+    gap: 1em;
+    justify-items: center;
+}

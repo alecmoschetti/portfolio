@@ -1,0 +1,18 @@
+//VARIABLE PAGE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// color variables
+$background-primary: #FFF8F0;
+$background-secondary: #3B3833;
+$neutral-accent: #61728F;
+$dark-accent: #E05D4F;
+$something: #4D4536;
+
+//breakpoint map variable
+$breakpoints: (
+    'xs': 575px,
+    's': 576px,
+    'm': 768px,
+    'l': 992px,
+    'xl': 1200px,
+    'xxl': 1280px
+);
