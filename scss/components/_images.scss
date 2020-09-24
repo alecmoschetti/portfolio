@@ -8,8 +8,35 @@
     padding-top: 5em;
 }
 
-.felix {
+.felix, 
+.linkedin,
+.github,
+.codepen,
+.instagram {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.linkedin-container,
+.github-container,
+.codepen-container,
+.instagram-container {
+    height: 0;
+    position: relative;
+    width: 2em;
+    padding-top: 2em;
+}
+
+.hypno {
+    width: 20.775em;
+    height: 31.25em;
+    background: url(../../images/hypno-felix.png) left center;
+    background-size: cover;
+    animation: play 1.5s steps(10) infinite;
+    display: inline-block;
+}
+
+@keyframes play {
+    100% {background-position: -207.750em;}
 }

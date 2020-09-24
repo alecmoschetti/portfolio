@@ -1,8 +1,21 @@
 // flex partial 
 
+.hero,
+.icon-container,
+nav ul {
+    @include flex;
+    @include align-items(center);
+}
+
+.hero,
+.icon-container {
+    @include justify(space-between);
+}
+
 .hero {
-    display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: center;
+}
+
+nav ul {
+    justify-content: center;
 }

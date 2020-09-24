@@ -1,12 +1,11 @@
 //VARIABLE PAGE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 // color variables
-$background-primary: #FFF8F0;
-$background-secondary: #3B3833;
-$neutral-accent: #61728F;
-$dark-accent: #E05D4F;
-$something: #4D4536;
-
+$background-primary: rgba(249, 252, 235, 1);
+$background-secondary: rgba(238, 217, 186, 1);
+$neutral-accent: rgba(232, 220, 207, 1);
+$dark-accent: rgba(247, 237, 222, 1);
+$flair: #E05D4F;
 //breakpoint map variable
 $breakpoints: (
     'xs': 575px,

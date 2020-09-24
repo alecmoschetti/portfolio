@@ -15,7 +15,15 @@ main {
 }
 
 header {
+    width: 95%;
     padding: .5em;
-    border-radius: 5px;
 }
 
+.icon-container {
+    width: 65%;
+    margin: .5em auto;
+}
+
+.nav-bar li {
+    margin: .5em 1em;
+}
