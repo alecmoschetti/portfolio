@@ -28,20 +28,18 @@
     padding-top: 2em;
 }
 
-.project-image {
-    width: 50%;
-    margin: 0 auto;
-}
-
 .hypno {
-    width: 20.775em;
+/*     width: 265px;
+    height: 318px; */
+    width: 20.775em;   
     height: 19.875em;
-    background: url(../images/hypnofelix-final.png) left center;
+    background: url(../images/hypnofelix.png) left center;
     background-size: cover;
     animation: play 2.5s steps(10) infinite;
     display: inline-block;
 }
 
 @keyframes play {
+    // -3302px 
     100% {background-position: -206.5em;}
 }
