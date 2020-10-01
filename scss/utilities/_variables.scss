@@ -6,12 +6,13 @@ $background-secondary: rgba(238, 217, 186, 1);
 $neutral-accent: rgba(232, 220, 207, 1);
 $dark-accent: rgba(247, 237, 222, 1);
 $flair: #E05D4F;
+$dark-flair: desaturate(darken($flair, 20%), 30%);
 //breakpoint map variable
 $breakpoints: (
     'xs': 575px,
     's': 576px,
     'm': 768px,
-    'l': 992px,
+    'l': 1050px,
     'xl': 1200px,
     'xxl': 1280px
 );

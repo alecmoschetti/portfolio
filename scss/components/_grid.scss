@@ -8,18 +8,30 @@
         'footer';
     gap: 1em;
     justify-items: center;
+    @include mq(m) {
+        grid-template-areas: 
+        'hero hero '
+        'main main '
+        'main main'
+        'footer footer';
+    }
+    @include mq(l) {
+        grid-template-areas: 
+            'hero main main'
+            'hero main main'
+        ;
+    }
 }
 
 .hero {
     grid-area: hero;
 }
 
-.nav-bar {
-    grid-area: nav;
-}
-
 footer {
     grid-area: footer;
+    @include mq(l) {
+        display: none;
+    }
 }
 
 .portfolio-container {
@@ -32,4 +44,9 @@ footer {
         'four';
     gap: 1em;
     justify-items: center;
+    @include mq(m) {
+        grid-template-areas: 
+        'one two '
+        'three four ';
+    }
 }

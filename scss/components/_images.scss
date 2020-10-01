@@ -6,6 +6,11 @@
     position: relative;
     width: 4em;
     padding-top: 5em;
+    margin: 0 auto;
+    @include mq(l) {
+        width: 6em;
+        margin: 0 auto 2em;
+    }
 }
 
 .felix, 
@@ -28,18 +33,82 @@
     padding-top: 2em;
 }
 
-.hypno {
-/*     width: 265px;
-    height: 318px; */
-    width: 20.775em;   
-    height: 19.875em;
-    background: url(../images/hypnofelix.png) left center;
-    background-size: cover;
-    animation: play 2.5s steps(10) infinite;
+.gif {
+    width: 10em;
+    height: 7.5em;
+    background-color: #fffff0;
     display: inline-block;
+        // margin-bottom: -.425em;
 }
 
-@keyframes play {
-    // -3302px 
-    100% {background-position: -206.5em;}
+.eye-roll {
+    background: center / contain no-repeat url('../images/felix-eye-roll.gif');
+}
+
+.hypno {
+    background: center / contain no-repeat url('../images/hypno.gif');
+}
+
+.wink {
+    background: center / contain no-repeat url('../images/felix-wink.gif');
+}
+
+// .reading {
+//     background: center / contain no-repeat url('../images/felix-read.gif');
+// }
+
+.quarternote {
+    animation: move 10s ease-in-out both infinite;
+}
+
+.eighthnote {
+    animation: move 10s ease-in-out both infinite;
+    animation-delay: 1000ms;
+}
+
+@keyframes move {
+    10% {
+        transform: translateX(20%);
+    }
+    20% {
+        transform: translateX(-20%);
+    }
+    30% {
+        transform: translateX(40%);
+    }
+    40% {
+        transform: translateX(-40%);
+    }
+    50% {
+        transform: translateX(60%);
+    }
+    60% {
+        transform: translateX(-60%);
+    }
+    70% {
+        transform: translateX(80%);
+    }
+    80% {
+        transform: translateX(-80%);
+    }
+    90% {
+        transform: translateX(90%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.whistle {
+    width: 8em;
+}
+
+.svg-globe {
+    margin-bottom: 1em;
+    animation: spinglobe 10s ease-in-out infinite both;
+}
+
+@keyframes spinglobe {
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
 }

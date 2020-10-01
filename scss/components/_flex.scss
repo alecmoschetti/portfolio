@@ -2,7 +2,7 @@
 
 .hero,
 .icon-container,
-nav ul {
+ul {
     @include flex;
     @include align-items(center);
 }
@@ -18,4 +18,25 @@ nav ul {
 
 nav ul {
     justify-content: center;
+}
+
+.languages ul {
+    @include justify(space-around);
+}
+
+.project {
+    @include mq(m) {
+        @include flex;
+        @include justify(space-around);
+        @include flow(column, nowrap);
+    }
+}
+
+.about-hidden,
+.bio {
+    @include mq(l) {
+        @include flex;
+        @include flow(column, nowrap);
+        @include align-items(center);
+    }
 }
