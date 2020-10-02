@@ -39,6 +39,13 @@ button {
       }
 }
 
+.close-button-container {
+  text-align: left;
+  @include mq(xxl) {
+    margin-right: auto;
+  }
+}
+
 .close {
   margin: .5em 0 .5em auto;
   width: 2.5em;

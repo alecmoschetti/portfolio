@@ -1,6 +1,7 @@
 // SPACING GENERAL STYLES PARTIAL
 
-.about-hidden {
+.about-hidden,
+.hidden {
     display: none;
 }
 
@@ -75,28 +76,3 @@ footer {
     margin: 2em auto;
 }
 
-/* .overlay { //modal window overlay -- learned from treehouse
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(253, 252, 252, 1);
-}
-
-.modal {
-    width: 50vw;
-    margin: 10em auto;
-    position: relative;
-    text-align: center;
-    background: #fffff0;
-    border-radius: .35em;
-    padding: 1em;
-}
-
-.modal-content {
-    width: 95%;
-    margin: .5em auto;
-    padding: 1em;
-    max-height: 100%;
-} */
