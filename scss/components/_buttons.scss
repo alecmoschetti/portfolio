@@ -1,11 +1,10 @@
-button {
+button {    /* heavily inspired from a code pen from this link here https://codepen.io/kathykato/pen/gOOjgmP */
     background-color: rgba(238, 238, 238, 1);
     margin-bottom: .5em;
     text-transform: uppercase;
     border: 2px solid black;
     border-radius: 0.75em;
     padding: .35em;
-    // max-width: 5.5em;
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
     &::before {

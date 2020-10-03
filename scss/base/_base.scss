@@ -15,12 +15,12 @@ body {
     }
 }
 
-main {
+main, 
+header {
     width: 95%;
 }
 
 header {
-    width: 95%;
     padding: .5em;
 }
 
@@ -31,15 +31,18 @@ header {
     }
 }
 
+.project,
+.icon-container {
+    margin: .5em auto;
+}
+
 .project {
     width: 100%;
     height: 100%;
-    margin: .5em auto;
 }
 
 .icon-container {
     width: 65%;
-    margin: .5em auto;
 }
 
 .nav-bar li {

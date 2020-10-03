@@ -6,10 +6,13 @@ body {
 
 header {
     background-color: $background-secondary;
+}
+
+header,
+.project-container {
     color: black;
 }
 
 .project-container {
     background-color: #fffff0;
-    color: black;
 }

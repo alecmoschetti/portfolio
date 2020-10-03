@@ -17,7 +17,7 @@ ul {
 }
 
 nav ul {
-    justify-content: center;
+    @include justify(center);
 }
 
 .languages ul {

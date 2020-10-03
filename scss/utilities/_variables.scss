@@ -3,10 +3,8 @@
 // color variables
 $background-primary: rgba(249, 252, 235, 1);
 $background-secondary: rgba(238, 217, 186, 1);
-$neutral-accent: rgba(232, 220, 207, 1);
-$dark-accent: rgba(247, 237, 222, 1);
 $flair: #E05D4F;
-$dark-flair: desaturate(darken($flair, 20%), 30%);
+
 //breakpoint map variable
 $breakpoints: (
     'xs': 575px,
